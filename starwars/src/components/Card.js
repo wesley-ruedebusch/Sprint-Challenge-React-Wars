@@ -1,6 +1,7 @@
 import React from 'react';
 import HeadingName from './StyledComponents';
-const Chars = (props) => {
+
+const Character= (props) => {
 return(
 <HeadingName className="peopleCard">
 <h2>Name:{props.human.name}</h2>
@@ -8,4 +9,4 @@ return(
 </HeadingName>
 );
 }
-export default Chars;
+export default Character;
